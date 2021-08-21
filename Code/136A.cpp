@@ -1,5 +1,5 @@
 /// Name - Sagar Mittal
-
+Edit by Arpit Gupta
 // Using Pairs with vectors after months
 // was not sure whether I will be able to do it, but do it anyway ;)
 
@@ -14,7 +14,8 @@ int32_t main()
 {
 	IOS;
 
-	int n; cin >> n;
+	int n;
+	cin >> n;
 	vector <pair<int, int>> v;
 
 	for (int i = 0; i < n; i++) {
@@ -24,7 +25,8 @@ int32_t main()
 
 	sort(v.begin(), v.end());
 
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++) 
+	{
 		cout << v[i].second << " ";
 	}
 
